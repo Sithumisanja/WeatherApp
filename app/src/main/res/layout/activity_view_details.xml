@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewDetails"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:id="@+id/txtdate1"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:id="@+id/txtlocation"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtimage"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:id="@+id/txttemp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="weather status"
+        android:id="@+id/txtweatherStatus"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="humidity"
+        android:id="@+id/txthumidity"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
